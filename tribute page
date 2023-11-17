@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+      <h1 id="title">Wes Craven 1939-2015</h1>
+      </head>
+    <body>
+      <font color="white">
+      <main id="main">
+        <h2 id="title">A Pioneer in the Horror Genre</h2>
+         <figure id="img-div">
+          <img id="image" src="https://en.wikipedia.org/wiki/File:Wes_Craven_2010.jpg" alt="Wes Craven being interviewed in 2010" />
+          <figcaption id="img-caption">Wes Craven on the set of his film, Scream 4 in 2010.</figcaption>
+        <section id="tribute-info">
+          <h3 id="headline">Check out a timeline of his most influential films:</h3>
+          <ul>
+            <li><strong>1972</strong> Last House of the Left</li>
+            <div>Wes thought this revenge-slasher film would be shown in only a few theatres, so he pushed into more shocking areas of of the genre. The content of the film left him ostracized.</div>
+            <li><strong>1977</strong> The Hills Have Eyes</li>
+            <div>After failing to get financial back for more conventional films, he wrote this cult classic based of the advice of a friend on how easy it was to film in the Nevada desert.</div>
+            <li><strong>1984</strong> A Nightmare on Elm Street</li>
+            <div>Considered one of the greatest horror films ever made, Craven's original take on the 80's version of the boogyman cemented his legecy as a horror master.</div>
+            <li><strong>1988</strong> The Serpent and the Rainbow</li>
+            <div>This voodoo horror movie is based loosely on the non-fiction book of the same name. It's heavy on special effects but more serious in its portrayal of Haitian voodoo practices as a religion.
+              <li><strong>1991</strong> The People Under the Stairs</li>
+              <div>This commercial hit was Craven's first comedy-horror. His satirical take on gentrification, class-warfare and capitalism hit a home-run with audiences, raking in over $31 million on a $6 million budget</div>
+              <li><strong>1994</strong> Wes Craven's New Nightmare</li>
+              <div>Although it was considered a failure at the box office, this meta version of his most iconic creation is much closer to what Wes had originally envisioned for Freddy Kruger. The supernatural-slasher is much darker and less comical than the direction the previous films in the Nightmare franchise had taken, resonating with critics.</div>
+              <li><strong>1996</strong> Scream</li>
+              <div>Wes turned down the offer to direct this script multiple times. But the collaboration of employees, a cancelled project and the failure of his latest horror-comedy renewed his interest. This is <i>the</i> film that reignited interest in the horror genre. It also spawned a franchise that to this day is still blazing trails.</div>
+            </ul>
+            <h4>A good resource to learn more about Wes Craven and all of the movies he made is
+              <a id="tribute-link" href="https://en.wikipedia.org/wiki/Wes_Craven#" target="_blank">Wikipedia</a>.</h4>
+          </section>
+        </main>
+      </body>
+    </html>

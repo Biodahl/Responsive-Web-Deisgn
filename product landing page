@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/956caf1ca8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <font color="black">
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://cdn-icons-png.flaticon.com/128/0/191.png" alt="Smartphone Widget Display"/>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="smart">
+        <h2>Smartphone Widget Display</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Add your email here..."
+            required
+          />
+          <input id="submit" type="submit" value="Let's go!" class="button" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-gear fa-2xl"></i></div>
+            <div class="desc">
+              <h2>Latest Designs</h2>
+              <p>
+                We create the future designs for the trend-setters... Be on the cutting edge of new widgets!
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-compass fa-2xl"></i></div>
+            <div class="desc">
+              <h2>Instantly Downloadable</h2>
+              <p>
+                We'll send you updates on the lastest designs as soon as they go live... For you to download instantly!
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa-solid fa-square-check fa-2xl"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Assurance</h2>
+              <p>
+                Our widgets are 100% guaranteed to be Unhackable, so you'll know any information on your device is safe!
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works">
+            <iframe
+              id="video"
+              src="https://www.youtube.com/shorts/hxLDGhBc-Q4">
+              </iframe>
+
+        </section>
+        <section id="pricing">
+          <div class="product" id="basic">
+            <div class="level">Basic Level</div>
+            <h2>$5 per month</h2>
+            <ol>
+              <li>Five widget downloads per month</li>
+              <li>One free shoutout on the media app of your choice</li>
+              <li>24 hours to change your mind and delete and download a different widget</li>
+              <li>Get $1 credit for every person you refer to our store</li>
+            </ol>
+            <button class="button">Select</button>
+          </div>
+          <div class="product" id="gold">
+            <div class="level">Gold Level</div>
+            <h2>$12 per month</h2>
+            <ol>
+              <li>12 widget downloads per month</li>
+              <li>Three free shoutouts on the media apps of your choice</li>
+              <li>12 hours to change your mind and delete and download a different widget</li>
+              <li>get a $3 credit for every person you refer to our store</li>
+            </ol>
+            <button class="button">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Platinum Level</div>
+            <h2>$25 per month</h2>
+            <ol>
+              <li>UNLIMITED widget downloads per month</li>
+              <li>TEN free shoutouts on the media apps of your choice</li>
+              <li>Get a $5 credit for every person you refer to our store</li>
+            </ol>
+            <button class="button">Select</button>
+          </div>
+        </section>
+        <footer>
+          <span>Copyright 2023, Smartphone Widget Display</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
